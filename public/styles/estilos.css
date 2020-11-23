@@ -1,0 +1,38 @@
+.imagenes{
+    height: 500px;
+}
+header{
+    margin-right: 104px;
+    margin-left: 105px;
+}
+.navbar{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: black;
+}
+#btn{
+    margin-left: 500px;
+}
+#icono{
+    height: 50px;
+    padding-right: 7px;
+}
+body{
+    background-color: teal;
+}
+#footer{
+    width: 1140px;
+    height: 50px;
+    margin-left: 105px;
+    text-align: center;
+    color: white;
+    padding-top: 8px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
