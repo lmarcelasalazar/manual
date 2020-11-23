@@ -99,7 +99,6 @@ class RegistroControlador extends BaseController {
 		$nombre=$this->request->getPost("nombreEditar");
 		$edad=$this->request->getPost("edadEditar");
 		$comida=$this->request->getPost("comidaEditar");
-		$tipo=$this->request->getPost("tipoEditar");
 		$descripcion=$this->request->getPost("descEditar");
 
 		//2.Organizar los datos de envio a la base datos en un arreglo asociativo

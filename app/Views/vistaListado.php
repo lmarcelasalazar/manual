@@ -52,7 +52,6 @@
                                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#editar<?php echo($animal["id"])?>">
                                     Editar
                                 </button>
-                                <br>
                                 <h6><?php echo(session('mensaje'))?></h6>
                             </div>
                         </div>
@@ -70,7 +69,7 @@
                                         <form action="<?php echo(base_url("public/animales/editar/".$animal["id"]))?>" method="POST">
                                             <div class="form-group">
                                                 <label>Nombre:</label>
-                                                <input type="text" class="form-control" name="nombreEditar" value="<?php echo($animal["nombre"])?>">
+                                                <input type="text" class="form-control" name="nombreEditar" value="<?php echo($animal["nombreanimal"])?>">
                                             </div>
                                             <div class="form-group">
                                                 <label>Edad:</label>
